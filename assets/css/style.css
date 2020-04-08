@@ -167,7 +167,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.days li > div {
+.days li > ul {
   min-height: 160px;
   margin-bottom: 40px;
   background:  #fff;
