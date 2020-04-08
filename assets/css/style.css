@@ -208,6 +208,7 @@ textarea {
 .form-container span {
   margin: 12px 0;
   font-size: 12px;
+  visibility: hidden;
 }
 
 .form-group span { color: #ff0000; }
