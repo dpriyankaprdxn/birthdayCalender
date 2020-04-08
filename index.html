@@ -3,7 +3,7 @@
 <html lang="en"> 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>Home | Birthday Calender</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
@@ -15,18 +15,78 @@
 <body>
   <!--container start-->
   <div class="container">
-    <!--header section start-->
-    <header>
-    </header>
-    <!--header section start-->
     <!--main section start-->
     <main>
+      <!-- birthday calender section start -->
+      <section class="birthday-calender">
+        <!-- wrapper start -->
+        <div class="wrapper">
+          <h2>Birthday cal</h2>
+          <ul class="days">
+            <li>
+              <h3>Mon</h3>
+              <div class="mon">
+              Monday
+              </div>
+            </li>
+            <li>
+              <h3>Tue</h3>
+              <div class="tue">
+              Tuesday
+              </div>
+            </li>
+            <li>
+              <h3>Wed</h3>
+              <div class="wed">
+              wednesday
+              </div>
+            </li>
+            <li>
+              <h3>Thu</h3>
+              <div class="thurs">
+              Thursday
+              </div>
+            </li>
+            <li>
+              <h3>fri</h3>
+              <div class="fri">
+              Friday
+              </div>
+            </li>
+            <li>
+              <h3>sat</h3>
+              <div class="sat">
+              Saturday
+              </div>
+            </li>
+            <li>
+              <h3>sun</h3>
+              <div class="sun">
+              Sunday
+              </div>
+            </li>
+          </ul>
+          <div>
+            <div class="form-group">
+              <textarea></textarea>
+            </div>
+            <div class="form-container">
+              <form class="form" action="#FIXME" method="post">
+                <div class="form-group">
+                  <input type="text" name="year" class="year" maxlength="4">
+                </div>
+                <div class="form-control">
+                  <input type="submit" name="update" class="update" value="Update">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- wrapper end -->
+      </section>
+      <!-- birthday calender section  end -->
     </main>
     <!--main section end-->
-    <!--footer section start-->
-    <footer>      
-    </footer>
-    <!--footer section end-->
   </div>
   <!--container end-->
 <script src="assets/js/script.js"></script>
